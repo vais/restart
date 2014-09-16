@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vais Salikhov"]
   spec.email         = ["vsalikhov@gmail.com"]
   spec.summary       = %q{Runs your shell command, then re-runs it any time filesystem change is detected.}
-  spec.description   = %q{For example, "restart ruby test.rb" will run "ruby test.rb", then re-run it after test.rb file changes (or any other files change in current working directory or any subdirectories under it).}
+  spec.description   = %q{Runs your shell command, then re-runs it any time filesystem change is detected. For example, "restart ruby test.rb" will run "ruby test.rb", then re-run it after test.rb file changes (or any other files change in current working directory or any subdirectories under it).}
   spec.homepage      = "http://github.com/vais/restart"
   spec.license       = "MIT"
 
